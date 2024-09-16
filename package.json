@@ -1,0 +1,19 @@
+{
+  "name": "media-assign-gracia",
+  "version": "1.0.0",
+  "description": "Media assigning project",
+  "main": "./client/server.js", 
+  "scripts": {
+    "start": "node ./src/server.js",  
+    "prestart": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""  
+  },
+  "author": "Geoff Gracia",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
+
